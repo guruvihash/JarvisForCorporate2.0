@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ironsplash"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="W E L C O M E"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="64dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="W E L C O M E"
+        android:textSize="30dp"
+        android:textColor="#E53935"
+        android:layout_marginTop="127dp"
+        android:layout_marginLeft="180dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please read terms and conditions carefully..."
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By using Jarvis or signing up for an account , you are agreeing to these terms, which will result in a legal agreement between you and Jarvis... "
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="40dp"/>
+
+    <CheckBox
+        android:id="@+id/ch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#51E53935"
+        android:text="Check it in..."
+        android:layout_marginTop="300dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="40dp"/>
+
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="#E53935"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="60dp"
+        android:text="L O G I N"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Redirect to login..."
+        android:textColor="#fff"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="16dp"/>
+
+
+
+
+
+
+</RelativeLayout>
